@@ -13,7 +13,7 @@ defmodule CalculateSum do
 
 end
 
-#CalculateSum1.sum [1,2,3]
+#CalculateSum.sum [1,2,3]
 
 defmodule CalculateMap do
   def map([], _func), do: []
