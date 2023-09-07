@@ -4,7 +4,8 @@ defmodule Fibonacci do
   def fib(1), do: 1
   def fib(n) when n >= 2, do: fib(n-1) + fib(n-2)
 end
-#
+
+#Fibonacci.fib 10
 defmodule CalculateSum do
   def sum([]), do: 0
   def sum([ head| tail ]), do: head + sum(tail)
