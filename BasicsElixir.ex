@@ -1,4 +1,4 @@
-#using command line iex fibonacci.ex to compile
+#using command line iex BasicsElixir.ex to compile
 defmodule Fibonacci do
   def fib(0), do: 1
   def fib(1), do: 1
