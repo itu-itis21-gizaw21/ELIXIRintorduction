@@ -21,8 +21,8 @@ defmodule CalculateMap do
 end
 
 """
-CalculateSum2.map [1,2,3,4,5], fn x-> x*x end
-CalculateSum2.map([1,2,3,4,5], &(&1*&1))
+CalculateMap.map [1,2,3,4,5], fn x-> x*x end
+CalculateMap.map([1,2,3,4,5], &(&1*&1))
 [1, 4, 9, 16, 25]
 """
 # Map and sum together
